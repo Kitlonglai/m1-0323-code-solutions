@@ -3,7 +3,7 @@ const student = {
   lastName: 'Lai',
   age: 26
 };
-const fullName = student.firstName + student.lastName;
+const fullName = student.firstName + ' ' + student.lastName;
 console.log('fullName:', fullName);
 student.livesInIrvine = true;
 student.previousOccupation = 'Administrator';
