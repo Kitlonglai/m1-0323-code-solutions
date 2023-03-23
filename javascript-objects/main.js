@@ -15,10 +15,10 @@ const vehicle = {
   model: '992 GT3RS',
   year: 2023
 };
-vehicle.color = 'chalk';
-vehicle.isConvertible = false;
-console.log('color:', vehicle.color);
-console.log('isConvertible:', vehicle.isConvertible);
+vehicle['color'] = 'chalk';
+vehicle['isConvertible'] = false;
+console.log('color:', vehicle['color']);
+console.log('isConvertible:', vehicle['isConvertible']);
 console.log('vehicle:', vehicle);
 
 const pet = {
