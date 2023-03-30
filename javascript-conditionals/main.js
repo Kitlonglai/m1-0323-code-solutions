@@ -112,14 +112,11 @@ function introduceWarnerBro(name) {
   switch (name) {
     case 'yakko':
     case 'wakko':
-      console.log("We're the warner brothers!");
-      break;
+      return "We're the warner brothers!";
     case 'dot':
-      console.log("I'm cute~");
-      break;
+      return "I'm cute~";
     default:
-      console.log('Goodnight everybody!');
-      break;
+      return 'Goodnight everybody!';
   }
 }
 
@@ -130,23 +127,17 @@ console.log('introduceWarnerBro x:', introduceWarnerBro('x'));
 function recommendMovie(genre) {
   switch (genre) {
     case 'action':
-      console.log('Matrix');
-      break;
+      return 'Matrix';
     case 'comedy':
-      console.log('Hangover');
-      break;
+      return 'Hangover';
     case 'horror':
-      console.log('Scream');
-      break;
+      return 'Scream';
     case 'drama':
-      console.log('Casino');
-      break;
+      return 'Casino';
     case 'musical':
-      console.log('Grease');
-      break;
+      return 'Grease';
     case 'sci-fi':
-      console.log('Interstellar');
-      break;
+      return 'Interstellar';
   }
 }
 
