@@ -40,7 +40,7 @@ function repeatWord(word, times) {
   return repeated;
 }
 
-console.log('repeatWord: ', repeatWord());
+console.log('repeatWord: ', repeatWord('word', 10));
 
 function logEachCharacter(string) {
   for (let i = 0; i < string.length; i++) {
@@ -48,7 +48,7 @@ function logEachCharacter(string) {
   }
 }
 
-console.log('logEachCharacter: ', logEachCharacter('string'));
+console.log('logEachCharacter: ', logEachCharacter('cap trap'));
 
 function doubleAll(numbers) {
   const doubled = [];
