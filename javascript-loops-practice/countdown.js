@@ -1,8 +1,8 @@
 /* exported countdown */
 function countdown(number) {
   const array = [];
-  for (number; number >= 0; number--) {
-    array.push(number);
+  for (let i = number; i >= 0; i--) {
+    array.push(i);
   }
   return array;
 }
