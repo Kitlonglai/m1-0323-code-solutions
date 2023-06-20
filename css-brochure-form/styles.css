@@ -1,0 +1,79 @@
+h2 {
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Brandon Grotesque", sans-serif;
+}
+
+form {
+  text-align: left;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 350px;
+  flex-basis: content;
+}
+
+input {
+  margin-bottom: 15px;
+  width: 350px;
+  height: 30px;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: rgb(236 67 67 / 83.4%);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  align-self: flex-end;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  float: right;
+  position: relative;
+  left: 40px;
+  border-radius: 15px;
+  border-color: rgb(236 67 67 / 83.4%);
+}
+
+select {
+  justify-content: center;
+  width: 350px;
+  font-size: 15px;
+  height: 30px;
+  color: rgb(99 93 93 / 98.5%);
+  background-color: rgb(235 235 235);
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 10px;
+  font-weight: 900;
+  padding-left: 10px;
+  white-space: nowrap;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
