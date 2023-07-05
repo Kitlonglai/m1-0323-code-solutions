@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.typing-test {
+  text-align: center;
+}
+
+span {
+  color: black;
+  padding: 3px;
+  font-size: 32px;
+}
+
+.current {
+  border-bottom: 2px solid black;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
